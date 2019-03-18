@@ -19,7 +19,10 @@ class ThirdFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_third, container, false)
+        val view:View = inflater.inflate(R.layout.fragment_third, container, false)
+
+
+        return view
     }
 
 

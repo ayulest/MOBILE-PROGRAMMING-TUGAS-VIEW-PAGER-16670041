@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         val adapter = FragmentPagerItemAdapter(
             supportFragmentManager, FragmentPagerItems.with(this)
-                .add("First", FirstFragment::class.java)
+                .add("Rekomendasi", FirstFragment::class.java)
                 .add("Second", SecondFragment::class.java)
                 .add("Third", ThirdFragment::class.java)
                 .add("Four", FourFragment::class.java)
