@@ -12,6 +12,9 @@
               android:textSize="20dp"
               android:textColor="@color/colorPrimary"
               android:id="@+id/tvTitle"/>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/tvPoster_path"/>
 
     <TextView android:layout_width="match_parent"
               android:layout_height="wrap_content"
