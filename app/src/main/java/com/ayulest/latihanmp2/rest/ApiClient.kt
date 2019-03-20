@@ -6,7 +6,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
-    val BASE_URL ="https://jsonplaceholder.typicode.com"
+    val BASE_URL ="https://api.themoviedb.org/3/movie/"
     fun client(): ApiService{
         val gson = GsonBuilder().create()
         return Retrofit.Builder()

@@ -13,6 +13,6 @@ data class Post(
 	@field:SerializedName("body")
 	val body: String? = null,
 
-	@field:SerializedName("userId")
+	@field:SerializedName("release_date")
 	val userId: Int? = null
 )
