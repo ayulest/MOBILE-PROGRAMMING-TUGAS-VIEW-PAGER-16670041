@@ -32,7 +32,7 @@ class UpcomingAdapter(val upList: List<ResultsItem>, val context: FragmentActivi
         p0.tvOverview.text=upList.get(p1).overview
         context?.let {
             Glide.with(it)
-                .load(upList.get(p1).posterPath).override(512,512).into(p0.tvPoster_path)
+                .load("https://image.tmdb.org/t/p/w500"+upList.get(p1).posterPath).override(512,512).into(p0.tvPoster_path)
         }
 
 
