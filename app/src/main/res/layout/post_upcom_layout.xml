@@ -10,7 +10,7 @@
               android:text="Title"
               android:gravity="center"
               android:textSize="20dp"
-              android:textColor="@color/colorPrimary"
+              android:textColor="@color/purple"
               android:id="@+id/tvTitle"/>
     <ImageView android:layout_width="match_parent"
                android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
 
     <View android:layout_width="match_parent"
           android:layout_height="5dp"
-          android:background="@color/colorPrimary">
+          android:background="@color/purple">
     </View>
 
 </LinearLayout>
